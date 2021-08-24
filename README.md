@@ -1,26 +1,27 @@
-# CGAProject
-Dies ist das Template Projekt für die Abschlussprojekte im Modul "Computergrafik und Animation" an der TH Köln.
 
-Bitte forken Sie dieses Projekt und entwickeln Sie Ihr Abschlussprojekt in diesem Fork weiter. Denken Sie daran fabianfriederichs, jm-th-koeln und umuesse als Collaborators hinzuzufügen, damit wir darauf zugreifen können.
-
-Löschen Sie als erstes den Abschnitt CGAProjekt in dieser Datei und füllen Sie den Rest entsprechend aus für die Abgabe.
 
 # Projektname
-Fügen Sie ihren Projektnamen hinzu
+## "Mensch ärgere dich nicht"
 
 # Teammitglieder
-Listen Sie hier noch einmal alle Teammitglieder auf.
-- Armin Anfang
-- Berta Beliebig
-- Carola Coautor
+- Karina Fishbeyn
+- David Buglowski
+- Theresa Kurz
 
 # Featureliste
-Listen Sie hier alle relevanten Features als Liste mit sinnvoller Reihenfolge auf mit Angabe wer das Feature implementiert hat.
-Bei starker Ungleicheit der Features behalten wir uns eine individuelle Notenvergabe vor.
 
-Bspw.
 
-- Verschiedene Kameramodelle (Wechsel zwischen orthographischer und perspektivischer Kamera mittels "c") (Berta)
-- Dynamische Kamera (Steuerung mittels Maus und "WASD" auf der Tastatur) (Carola und Armin)
-- Verschiedene Shaderprogramme (Wechsel mittels "s") (Carola)
-- ...
+- 3D Model eines Spielbretts wurde mittels Blender erstellt, zusätzlich wurde mit Photoshop eine Textur erstellt
+- 3D Model einer Spielfigur wurde mittels Blender erstellt, zusätzlich wurde mit Photoshop eine Textur erstellt
+- 3D Model eines Würfels wurde mittels Blender erstellt, zusätzlich wurden mit Photoshop 7 Texturen für die jeweiligen Augenanzeige + Startanzeige erstellt
+- 16 Figuren in 4 verschiedenen Farben werden auf Basis von 4 farbigen Texturen erstellt
+- Eine Figur kann sich mit W-A-S-D und Pfeiltasten bewegen (WASD auf X-Y Achse, Pfeiltasten (hoch runter auf Z) //diente um die Positionen der Laufpunkte auslesen zu lassen (Ausgabe mittels Leertaste)
+- Startpunkte, Laufpunkte, Endzonenpunkte werden ausgelesen
+- Mit Mausklick kann gewürfelt werden (Würfel zeigt Anzahl der Augen an (Veränderung der Textur), Figur "geht" dementsprechend Schritte)
+- Kamera Zoom-Funktion mittels Z (rein) & U (raus) 
+- Kamera Winkel verändern mittels O (hoch) und L (runter)
+- Diffuse Light + Specular Light wurden für die Optik hinzugefügt
+
+
+# Erklärvideo
+[Mensch ärgere dich nicht.mp4.zip](https://github.com/davidthkoeln/CGA_Project/files/7034645/Mensch.argere.dich.nicht.mp4.zip)
